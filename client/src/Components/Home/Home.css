@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Andika|Gabriela');
+
+body, html {
+    font-family: Gabriela;
+    overflow-x: hidden;
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8;
+    background: linear-gradient(#F5FFFA, #87CEEB, #F5FFFA);
+    }
+
+.welcome {
+    background: url('../img/welcome.jpg') no-repeat center;
+    min-height: 700px;
+}
+
+.welcome section {
+    background-color: rgba(105, 105, 105,0.2);
+}
+
+.living {
+    background: url('../img/living.jpg') no-repeat center;
+    min-height: 700px;
+}
+
+.living section {
+    background-color: rgba(119, 136, 153,0.3);
+}
+
+.eating {
+    background: url('../img/food.jpg') no-repeat center;
+    min-height: 700px;
+
+}
+
+.eating section {
+    background-color: rgba(139, 69, 19,0.3);
+}
+
+.going {
+    background: url('../img/going.jpg') no-repeat center;
+    width: 100%;
+    min-height: 700px;
+
+}
+
+.going section {
+    background-color: rgba(34, 139, 34,0.2);
+}
+
+.shopping {
+    background: url('../img/shopping.jpg') no-repeat center;
+    min-height: 700px;
+
+}
+
+.shopping section {
+    background-color: rgba(236, 252, 252, 0.3);
+}
+
+
+section {
+    float: left;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    left: 35px;
+    top: 200px;
+    padding: 8px;
+}
+
+section>h2 {
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1em;
+}
+
+section p {
+    font-size: 20px;
+    color: white;
+}
+
+.slide1 {
+    justify-content: space-around;
+}
+
+.my-buttons {
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 13%;
+    margin: 0 auto;
+}
+
+.my-buttons a {
+    text-align: center;
+}
+
+footer {
+    background-color: #434343;
+    color: white;
+    width: 100%;
+    height: 50px;
+    padding-top: 8px;
+    text-align: center;
+    }
+
+.my-buttons:hover {
+    background-color: white;
+}
